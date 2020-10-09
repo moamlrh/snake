@@ -1,0 +1,34 @@
+.game-area{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.snake-body{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  border: wheat 2px solid;
+  background-color: black;
+  z-index: 4;
+}
+
+.food{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  border: 2px red solid;
+  background-color: seagreen;
+  z-index: 1;
+}
+
+.get-more-score{
+  position: absolute;
+  width: 4%;
+  height: 4%;
+  border: 2px springgreen solid;
+  background-color: seagreen;
+  z-index: 1;
+}
